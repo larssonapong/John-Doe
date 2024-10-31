@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css" />
+    <title>About</title>
+</head>
+
+<body class="*:font-roboto">
+    <!-- Debut de la partie Header -->
+    <header
+        class="relative px-5 min-[560px]:px-10 md:px-24 lg:px-32 xl:px-44 min-[1460px]:px-52 py-3 bg-primary-bg h-auto">
+        <!-- Navigation -->
+        <nav
+            class="fixed md:flex md:justify-between md:items-center w-full left-0 top-0 pl-5 pr-3 min-[560px]:px-10 md:px-24 lg:px-32 py-2 min-[560px]:py-4 md:py-2 lg:py-3 bg-white z-10">
+            <div class="flex justify-between items-center md:inline">
+                <!-- titre -->
+                <h1
+                    class="inline font-semibold tracking-[2px] md:tracking-[5px] xl:tracking-[10px] md:inline md:text-[2rem] text-second-text text-shadow min-[360px]:text-[24px] xl:text-[36px]">
+                    John<span class="text-primary-text">Doe</span>
+                </h1>
+                <!-- titre -->
+
+                <!-- bouton burger -->
+                <label for="burger" class="md:hidden">
+                    <i
+                        class="fa-regular fa-bars text-primary-text cursor-pointer min-[360px]:text-[24px] text-center"></i>
+                </label>
+                <!-- bouton burger -->
+            </div>
+
+            <!-- Menu burger -->
+            <input type="checkbox" id="burger" class="hidden" />
+            <div
+                class="absolute md:relative top-0 left-0 bg-second-bg md:bg-transparent h-screen md:h-auto w-full md:w-auto flex md:inline flex-col justify-center items-center -translate-x-full md:translate-x-0 transition-all duration-500">
+                <label for="burger"
+                    class="absolute top-3 right-3 min-[560px]:top-5 min-[560px]:right-5 cursor-pointer md:hidden"><i
+                        class="fa-solid fa-xmark text-[#EC786F] font-bold text-[20px] min-[360px]:text-[28px]"></i></label>
+
+                <!-- onglets -->
+                <ul class="text-center mb-4 md:mb-0 md:inline-flex md:gap-7 lg:gap-12 xl:gap-16">
+                    <li class="mb-2 min-[360px]:mb-4 md:mb-0"><a href="./index.html" class="onglet">Home</a></li>
+                    <li class="mb-2 min-[360px]:mb-4 md:mb-0"><a href="#" class="onglet text-primary-text">About</a>
+                    </li>
+                    <li class="mb-2 min-[360px]:mb-4 md:mb-0"><a href="./projects.html" class="onglet">Projects</a></li>
+                    <li class="mb-2 min-[360px]:mb-4 md:mb-0"><a href="./contact.html" class="onglet">Contact</a></li>
+                </ul>
+                <!-- onglets -->
+
+                <!-- Reseaux Sociaux -->
+                <div class="social md:hidden">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-squarespace"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <!-- Reseaux Sociaux -->
+            </div>
+            <!-- Menu burger -->
+        </nav>
+        <!-- Navigation -->
+
+    </header>
+    <!-- Fin de la partie Header -->
+
+    <!-- Debut de la partie Main -->
+    <main class="h-[86vh] bg-primary-bg py-[2rem] min-[560px]:py-[5rem] xl:py-[8rem] relative px-5 min-[560px]:px-14 md:px-[20%] lg:px-[22%] xl:px-[25%] 2xl:px-[29%]">
+        <!-- about texte -->
+        <div class="h-full w-full flex flex-col justify-center">
+            <div class="flex justify-center">
+                <h1
+                class="relative flex justify-center text-second-text font-bold text-[20px] min-[360px]:text-[24px] md:text-[30px] lg:text-[45px] xl:text-[60px] tracking-[1px] min-[1460px]:tracking-[5px] before:linear-c xl:before:w-20 mb-5 lg:mb-8 xl:mb-12 2xl:mb-16">
+                About Me
+            </h1>
+            </div>
+
+            <p class="text-[#607A80] text-[10px] min-[560px]:text-[12px] md:text-[14px] xl:text-[16px]">Hello, I am John Doe and i am a web devloper. I live and work in somewhere warm. I spend Most of my ay, experimenting with HTML CSS and Javascript (and its endless list of frameworks). I enjoy coding and challenge of learning something new everyday. You can also find me at youtube channel <a href="#" class="text-primary-text hover:underline">CODING ADDICT</a></p>
+        </div>
+        <!-- about texte -->
+    </main>
+    <!-- Fin de la partie Main -->
+
+    <!-- Debut de la section Footer -->
+    <footer
+        class="bg-[#222] text-center py-[1rem] min-[560px]:py-[2rem] xl:py-[3rem] relative px-5 min-[560px]:px-10 md:px-24 lg:px-32 xl:px-40">
+        <!-- Reseaux Sociaux -->
+        <div class="social-foot">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-squarespace"></i></a>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <!-- Reseaux Sociaux -->
+
+        <p class="text-[10px] min-[560px]:text-[12px] md:text-[14px] xl:text-[16px] 2xl:text-[20px] text-[#334D63]">
+            &copy; 2023 John Doe. All Right Reserved</p>
+    </footer>
+    <!-- Debut de la section Footer -->
+</body>
+
+</html>
